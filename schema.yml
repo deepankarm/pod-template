@@ -1,4 +1,4 @@
-project_dir: "{{executor_name.lower().replace(' ', '_').replace('-', '_')}}"
+project_dir: "{{executor_name.replace(' ', '_').replace('-', '_')}}"
 fields:
   - name: executor_name
     help: Class name of the Executor (UpperCamelCase)
