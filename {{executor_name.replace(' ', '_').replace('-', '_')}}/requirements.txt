@@ -1,2 +1,2 @@
 jina
-{{ pip_requirements | replace(',', '\n') }}
+{{ pip_requirements }}
