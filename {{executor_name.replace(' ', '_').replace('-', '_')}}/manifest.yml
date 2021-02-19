@@ -10,5 +10,5 @@ vendor: {{ author_vendor }}
 documentation: {{ docs_url }}
 version: {{ version }}
 license: {{ license }}
-keywords: [{{ keywords }}]
+keywords: {{ keywords }}
 type: pod
